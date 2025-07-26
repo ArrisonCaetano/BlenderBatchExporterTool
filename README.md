@@ -1,12 +1,17 @@
-Export Selected Meshes as Individual GLTF Files
-This Blender script exports each selected mesh object to its own folder inside a user-chosen directory. Each mesh is saved as a separate .glb file under <ChosenFolder>/<ObjectName>/Models/. The operator integrates into Blender’s File > Export menu for easy access.
+🧩 Export Selected Meshes as Individual GLTF Files
+A custom Blender script that exports each selected mesh object into its own folder. Each mesh is saved as a separate .glb file inside:
 
-Features:
+php-template
+Copy
+Edit
+<ChosenFolder>/<ObjectName>/Models/
+✅ Integrated into File > Export for quick access.
 
-Exports only selected mesh objects
+✨ Features
+🟢 Exports only selected mesh objects
 
-Creates organized folder structure automatically
+📁 Creates a clean folder structure automatically
 
-Saves files in GLB (binary glTF) format
+💾 Saves files in GLB (binary glTF) format
 
-Folder selection via Blender’s file browser
+🗂️ Folder selection via Blender's file browser****
